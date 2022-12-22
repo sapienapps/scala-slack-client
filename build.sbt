@@ -10,9 +10,7 @@ lazy val scala212 = "2.12.16"
 lazy val scala213 = "2.13.10"
 lazy val supportedScalaVersions = List(scala212, scala213)
 
-scalaVersion := scala212
-
-scalacOptions += "-Ypartial-unification"
+scalaVersion := scala213
 
 libraryDependencies ++= {
   Seq(
